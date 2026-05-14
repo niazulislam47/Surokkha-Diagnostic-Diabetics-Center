@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --font-serif: "Cormorant Garamond", "Playfair Display", "Georgia", serif;
+  }
+}
+
+@layer base {
+  .font-serif-italic {
+    font-family: var(--font-serif);
+    font-style: italic;
+  }
+  
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+}
